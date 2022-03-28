@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            background-color:black;
+        }
+        .flex-container{
+            display:inline-block;
+            display:flex;
+            /*flex-wrap:nowrap;*/
+            background-color:transparent;
+        }
+        .flex-container .box1{
+            margin-left:5%;
+            width:90%;
+            float: top;
+        }
+        .flex-container .box2{
+            position:relative;
+            margin-top:-20px;
+            margin-left:5%;
+            width:90%;
+            height:300px;
+            float:bottom;
+            background-image:url(/html/pr/9GYrluZP4-4.jpg);
+            background-size:100% 100%;
+        }
+        .flex-container .box3{
+            position:relative;
+            margin-left:5%;
+            width:90%;
+            background-color: #404040;
+            height:auto;
+            padding:5px 30px;
+        }
+        ul{
+            border-radius:10px;
+            list-style-type:none;
+            mergin:0;
+            padding:0;
+            overflow:hidden;
+            /*background-color: #1454ABFF;*/
+            background-image:linear-gradient(lightblue, #32a4e7, blue)
+        }
+        li{
+            float:left;
+        }
+        li a{
+            display:block;
+            text-align:center;
+            padding:16px;
+            text-decoration:none;
+        }
+       li a:link, a:visited{
+            color:white;
+           
+            text-decoration:none;
+        }
+       li a:hover, a:active{
+            color:darkblue;
+            text-decoration:none;
+        }
+       .bottomleft{
+           border:1px solid transparent;
+           background-color:#000000;
+           text-indent:20px;
+           opacity:0.5;
+           width:100%;
+           position:absolute;
+           color:white;
+           bottom:0px;
+           left:0px;
+           font-size:25px;
+       }
+       .content-left{
+           float:left;
+           width:65%;
+           height:auto;
+           margin:0;
+           padding:0;
+       }
+       .content-right{
+           float:left;
+           padding:0;
+           padding-left:40px;
+           width:30%;
+           height:auto;
+           margin:0;
+
+       }
+
+    </style>
+</head>
+<body>
+<h1 style="color:white;text-align:center;font-family: 'Times New Roman';font-size:50px;">Buildings</h1>
+<div class="flex-container">
+    <div class="box1">
+        <ul>
+            <li><a href="/html/base.html"><b>Home</b></a></li>
+            <li><a href="/html/base.html"><b>Our Work</b></a></li>
+            <li><a href="/html/base.html"><b>Testimoniais</b></a></li>
+            <li><a href="/html/base.html"><b>Projects</b></a></li>
+            <li><a href="/html/base.html"><b>Contact Us</b></a></li>
+        </ul>
+    </div>
+  <!--  <div class="box2">
+        <div class="box1"><img src="/html/pr/9GYrluZP4-4.jpg" style="text-align:center; width:90%;" ></div>
+    </div>-->
+</div>
+<div class="clearfix flex-container">
+    <div class="box2">
+      <!--  <img src="/html/pr/9GYrluZP4-4.jpg" style="text-align:center; width:100%; height:60%;" >-->
+        <div class="bottomleft">"Enter your caption here"</div>
+    </div>
+</div>
+<div class="clearfix flex-container">
+    <div class="box3">
+        <div class="content-left">
+            <h2 style="color:white;">Welcome To Your Website</h2>
+            <p style="color:white;">
+                This standards compliant, simple, food width website template is released as an 'open sources' design(under the Creative Commons Attribution 3.0 Licence), which means that you are free to download and use it for anything you want (including modifying and amending it). If you wish to remove the "website template by Free Html5 Templates", all I ask is for a donation of200000 GBP. Please feel free to contact me with any questions you may have about my free HTM5 website templates or bespoke work.
+            </p>
+        </div>
+        <div class="content-right">
+            <h2 style="color:dodgerblue;">New Website</h2>
+            <p style="color:white;">
+                Welcome to our new website. Please have a look around, any feedback is much appredated.
+            </p>
+        </div>
+        <div class="content-left">
+            <img src="/html/pr/9teLSxO0-Ac.jpg"  width="150" height="150" style="float:left; margin-right:15px; margin-top:50px;">
+            <p style="color:white; margin-top:50px;" >This standards compliant, simple, food width website template is released as an 'open sources' design(under the Creative Commons Attribution 3.0 Licence), which means that you are free to download and use it for. Please feel free to contact me with any questions you may have about my free HTM5 website templates or bespoke work.  </p>
+
+        </div>
+        <div class="content-right" style="margin-top:15px;">
+            <h2 style="color:dodgerblue;">Latest Update</h2>
+            <h2 style="color:white;">February 2013</h2>
+            <p style="color:white;">
+                Welcome to our new website. Please have a look around, any feedback is much appredated.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
